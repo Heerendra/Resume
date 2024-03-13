@@ -1,0 +1,43 @@
+.Name{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.Contact{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+
+p{
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+h3{
+    margin: 5px;
+    padding: 5px;
+    background-color: slategray;
+}
+
+.list{
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+table, td{
+    margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 7px;
+}
+
+#icon{
+    width: 1%;
+}
