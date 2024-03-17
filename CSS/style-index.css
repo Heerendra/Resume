@@ -4,40 +4,8 @@
 }
 
 body{
-background-color: rgb(0, 0, 37);
-color: white;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(14, 14, 67);
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li{
-    list-style: none;
-    margin: 0 23px;
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;    
-}
-
-nav ul li a:hover{
-    color: rgb(113, 113, 223);
-    font-size: 1.02rem;    
-}
-
-.left{
-    font-size: 1.8em;
-    letter-spacing: 0.5px;
+background-color: rgb(212, 212, 190);
+color: rgb(18, 17, 19);
 }
 
 .first-section{
@@ -47,11 +15,11 @@ nav ul li a:hover{
 }
 
 .first-section >div{
-    width: 30%;
+    width: 30vw;
 }
 
 #element{
-    color: rgb(152, 80, 219);;
+    color: rgb(79, 88, 69);
 }
 
 .left-section{
@@ -59,23 +27,19 @@ nav ul li a:hover{
     margin: 60px 253px;
 }
 
-.right-section{
-
-}
-
 .right-section img{
-    width: 40%;
-    margin: 90px 13px;
+    width: 17vw;
+    margin: 57px -31px;
 }
 
 .purple{
-    color: rgb(152, 80, 219);
+    color: rgb(79, 88, 69);
 }
 
 .second-section{
     max-width: 60vw;
     margin: auto;
-    height: 80vh;
+    height: 60vh;
 }
 
 .second-section h1{
@@ -86,7 +50,7 @@ nav ul li a:hover{
 main hr{
     width: 90%;
     margin: 41px auto;
-    background: rgb(152, 80, 219);
+    background: rgb(18, 17, 19);
     border: 0;
     height: 2px;
 }
@@ -97,7 +61,7 @@ main hr{
 }
 
 .second-section .box{
-    background: white;
+    background: rgb(18, 17, 19);
     width: 80vw;
     height: 2px;
     margin: 90px -159px;
@@ -106,7 +70,7 @@ main hr{
 
 .second-section .vertical{
     height: 90px;
-    background: white;
+    background: rgb(18, 17, 19);;
     width: 1px;
     margin:0px 190px;
 }
@@ -136,33 +100,14 @@ main hr{
     color: grey;
 }
 
-footer{
-    background-color: rgb(14, 14, 67);
-}
-
-.footer{
-    display: flex;
-    padding: 23px 23px;
-    justify-content: space-evenly;
-}
-
-.footer{
-    width: 1180px;
-}
-
-.footer ul{
-    list-style: none;
-}
-
-footer .copyright{
-    text-align: center;
-    color: grey;
-}
-
 .btn{
-    border: 7px solid white;
-    background: purple;
-    margin: 4px;
-    border-radius: 6px;
+    background-color: rgb(34, 39, 37);
+    border: .5px solid rgb(212, 212, 190);
+    color: rgb(212, 212, 190);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
+    border-radius: 6px;
 }

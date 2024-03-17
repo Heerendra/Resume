@@ -1,0 +1,81 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+background-color: rgb(212, 212, 190);
+color: rgb(18, 17, 19);
+}
+
+main{
+    width: 65vw;
+    align-items: center;
+}
+
+.first-section{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.first-section h1{
+    font-size: 2rem;
+}
+
+.Contact{
+    display: inline-block;
+    margin: 14px 31px;
+}
+
+.Contact a{
+    color: rgb(18, 17, 19);
+}
+
+.Contact img{
+    margin: -2px 9px;
+}
+
+.summary-section>div{
+    margin: 10px 25px;
+}
+
+h2{
+    margin: 20px 0px;
+    font-size: 1.3rem;
+}
+
+.skills-section .skill{
+    display: flex;
+}
+
+.skills-section .skill ul li{
+    margin: 5px;
+}
+
+.exp-box p{
+    font-size: 1.2rem;
+    margin: 10px 10px;
+    
+}
+
+.exp-box ul li{
+    margin: 10px 35px;
+}
+
+.exp-box{
+    margin: 25px 15px;
+}
+
+.education-section .education ul li{
+    margin: 10px 25px;
+    list-style: none;
+}
+
+.project-section .project p{
+    margin: 10px 25px;
+}
+
+.certification-section .certificate p{
+    margin: 10px 25px;
+}
+

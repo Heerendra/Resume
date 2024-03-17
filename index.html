@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Heerendra Portfolio</title>
     <link rel="stylesheet" href="CSS/style-index.css">
+    <link rel="stylesheet" href="CSS/style-nav.css">
+    <link rel="stylesheet" href="CSS/style-footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,17 +16,7 @@
 
 <body>
     <header>
-        <nav>
-            <div class="left">Heerendra's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="Resume/resume.html">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div w3-include-html="nav.html"></div>
     </header>
     <main>
         <section class="first-section">
@@ -34,7 +26,7 @@
                 <div><span id="element"></span></div>
                 <div class="buttons">
                     <button class="btn">Download Resume</button>
-                    <button class="btn">Visit github</button>
+                    <button class="btn">Visit Github</button>
                 </div>
             </div>
             <div class="right-section"><img src="img/vecteezy_web-developer-png-graphic-clipart-design_23485805.png"
@@ -44,8 +36,8 @@
         <hr>
 
         <section class="second-section">
-            <span class="grey">what I have done so far</span>
-            <h1>Past Experience</h1>
+            <span class="grey">Accomplished so far</span>
+            <h1>Work Experience</h1>
             <div class="box">
                 <div class="vertical">
                     <img class="image-dev" src="./img/dev.png" alt="developer">
@@ -82,30 +74,10 @@
             </div>
         </section>
     </main>
-
     <footer>
-        <div class="footer">
-
-            <div class="footer-first">Heerendra's Developer Portfolio</div>
-            <div class="footer-Second">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </div>
-        <div class="copyright">copyright &#169 www.heerendra.com | All rights reserverd.</div>
-
+        <div w3-include-html="footer.html"></div>
     </footer>
 </body>
-
-<script>
-    var typed = new Typed('#element', {
-        strings: ['Learing Web Development.', 'Java Developer.'],
-        typeSpeed: 40,
-    });
-</script>
-
+<script src="JS/script.js"></script>    
+<script>includeHTML();</script>
 </html>
