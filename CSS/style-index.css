@@ -39,7 +39,7 @@ color: rgb(18, 17, 19);
 .second-section{
     max-width: 60vw;
     margin: auto;
-    height: 60vh;
+    height: 80vh;
 }
 
 .second-section h1{
@@ -75,17 +75,25 @@ main hr{
     margin:0px 190px;
 }
 
-.image-dev{
-    width: 54px;
-    height: 37px;
+.image-evolent{
+    width: 104px;
+    height: 90px;
     position: relative;
-    top: -57px;
-    left: -27px;
+    top: -71px;
+    left: -44px;
+}
+
+.image-tsystems{
+    width: 125px;
+    height: 35px;
+    position: relative;
+    top: -41px;
+    left: -44px;
 }
 
 .vertical-title{
     position: relative;
-    top: 58px;
+    top: 15px;
     left: -61px;
     width: 132px;
     text-align: center;
@@ -93,9 +101,26 @@ main hr{
 
 .vertical-desc{
     position: relative;
-    top: 61px;
+    top: 23px;
     left: -59px;
-    width: 168px;
+    width: 280px;
+    font-size: 11px;
+    color: grey;
+}
+
+.vertical-title-tsys{
+    position: relative;
+    top: 65px;
+    left: -61px;
+    width: 132px;
+    text-align: center;
+}
+
+.vertical-desc-tsys{
+    position: relative;
+    top: 71px;
+    left: -59px;
+    width: 280px;
     font-size: 11px;
     color: grey;
 }
