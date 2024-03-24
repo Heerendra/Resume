@@ -4,6 +4,7 @@
         <title>Contact to us</title>
         <link rel="stylesheet" href="CSS/style-nav.css">
         <link rel="stylesheet" href="CSS/style-footer.css">
+        <link rel="stylesheet" href="CSS/style-contact.css">
     </head>
     <body>
         <header>
@@ -11,7 +12,27 @@
         </header>
         <main>
             <section class="first-section">
-                <div>Contact Details are below</div>
+                <form action="#" method="post">
+                    <h2>Contact Us</h2>
+                        <p>
+                            <label for="Name" class="floatLabel">Name</label>
+                            <input id="Name" name="Name" type="text">
+                        </p>
+                        <p>
+                            <label for="Email" class="floatLabel">Email</label>
+                            <input id="Email" name="Email" type="email">
+                        </p>
+                        <p>
+                            <label for="contact" class="floatLabel">Contact No.</label>
+                            <input id="contact" name="contact" type="text">
+                        </p>
+                        <p>
+                            <textarea class="floatLabel" name="bio" id="bio" cols="50" rows="10" placeholder="about you.."></textarea>
+                        </p>
+                        <p>
+                              <input type="submit" value="Connect" id="submit">
+                        </p>
+                      </form>
             </section>
         </main>
         
